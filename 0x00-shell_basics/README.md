@@ -2,4 +2,8 @@
 1-listit lists the content of the current directory
 2-bring_me_home changes directory to home
 
-3-listfiles list files in a directory with more info like permission, date modified.
+3-listfiles lists files in a directory with more info like permission, date modified.
+4-listmorefiles lists all files in a directory even the hidden ones
+
+
+
