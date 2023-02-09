@@ -1,0 +1,2 @@
+#!/bin/bashmv
+mv [[:upper:]]* /tmp/u
