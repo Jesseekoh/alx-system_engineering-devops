@@ -6,3 +6,4 @@
 5 - Adds execute permission for file
 6 - Adds multiple permissions to owner and group owner
 7 - adds execute permission to the owner, the group owner and other users
+8 - removes all permissions from owner and group but adds all permissions to other users
