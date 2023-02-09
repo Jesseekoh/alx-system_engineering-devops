@@ -24,8 +24,12 @@
 
 14-copy_html copies html files from the current working directory to the parent directory if they don't already exist there
 
-15-lets_move moves files that begin with an uppercase letter to tmp/u
+100-lets_move moves files that begin with an uppercase letter to tmp/u
 
-16-clean_emacs deletes all files that end with "~" in the current directory
+101-clean_emacs deletes all files that end with "~" in the current directory
+
+102-tree creates dir recursively
+
+103-commas list the contents of a directory separated by commas and there is a slash (/) after every directory
 
 
