@@ -8,3 +8,4 @@
 7 - adds execute permission to the owner, the group owner and other users
 8 - removes all permissions from owner and group but adds all permissions to other users
 9 - adds select permissions to file
+10 - mirrors permissions from one file to another
