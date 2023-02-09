@@ -12,3 +12,5 @@
 11 - Adds permission to subdirectories of the current directory
 12 - Creates my_dir with permissions 751
 13 - change group owner of a file
+14 - change group and owner of a file
+15 - change owner of a symbolic link
