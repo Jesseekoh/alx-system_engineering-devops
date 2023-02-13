@@ -15,3 +15,9 @@
 14-findthatword displays lines in a file the contain a certain pattern
 15-countthatword displays the number of lines that contain a pattern
 16-whatsnext displays the lines containing the pattern "root" and 3 lines after them in a file
+17-hidethisword displays all lines that do not contain the pattern "bin"
+18-letteronly displays all lines of a file that start with a certain letter
+19-AZ replace all characters A and c with Z and e
+20-hiago deletes all C's and c's from file
+21-reverse write a scrit but reverse its output
+22-users_and_homes displays all users and their home directories
