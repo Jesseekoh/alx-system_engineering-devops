@@ -6,3 +6,4 @@
 5-firstlines displays the first 10 lines of a file
 6-third_line prints the third line of a file
 7-file creates a file in given directory
+8-cwd_state stores the result of ls -ls command in a file called ls_cwd_content
