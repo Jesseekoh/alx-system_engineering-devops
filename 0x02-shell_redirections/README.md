@@ -7,3 +7,5 @@
 6-third_line prints the third line of a file
 7-file creates a file in given directory
 8-cwd_state stores the result of ls -ls command in a file called ls_cwd_content
+9-duplicate_last_line duplicates the last line of the file
+10-no_more_js searches for all .js files in a directory and deletes them
