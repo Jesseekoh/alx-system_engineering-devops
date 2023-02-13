@@ -9,3 +9,9 @@
 8-cwd_state stores the result of ls -ls command in a file called ls_cwd_content
 9-duplicate_last_line duplicates the last line of the file
 10-no_more_js searches for all .js files in a directory and deletes them
+11-directories counts the number of directories and subdirectories in the current directory
+12-newest_files displays the 10 newest files in the current directory
+13-unique sorts a list of words and prints only the words that appear exactly once
+14-findthatword displays lines in a file the contain a certain pattern
+15-countthatword displays the number of lines that contain a pattern
+16-whatsnext displays the lines containing the pattern "root" and 3 lines after them in a file
