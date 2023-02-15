@@ -12,3 +12,4 @@
 11-binary_to_decimal converts a number from base 2 to base 10
 12-combinations prints all possible combinations of two letters
 13-Prints a number with two decimal places 
+14- converts a number from base 10 to base 16
