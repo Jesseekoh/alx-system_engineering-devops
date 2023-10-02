@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
 # This script is displaying a clock
-# hour=0
+hour=0
 
-for i in {0..12}
+while [ $hour -le 12 ]
 do
 
-    echo Hour: $i
-    for j in {1..59}
+    echo Hour: $hour
+    minutes=1
+    while [ $minutes -le 59 ]
     do
-        echo $j
-        ((j++))
+        echo $minutes
+        ((minutes++))
     done
-    ((i++))
+    ((hour++))
 done
