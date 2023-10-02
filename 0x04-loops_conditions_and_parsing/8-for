@@ -5,5 +5,5 @@ list=$(ls .)
 
 for item in $list
 do
-    echo "$item"
+    echo "$item" | cut -d "-" -f 2
 done
