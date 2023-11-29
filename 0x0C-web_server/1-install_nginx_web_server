@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# installs, configures and starts nginx server
+
+sudo apt update -y
+sudo apt install nginx -y
+
+
+sudo ufw allow 'Nginx HTTP'
+
+echo Hello World! > /var/www/test.com/html/index.html
+
+sudo service start nginx
