@@ -11,8 +11,8 @@ if __name__ == '__main__':
     if len(argv) > 1:
         if re.fullmatch(r'\d+', argv[1]):
             API_URL = 'https://jsonplaceholder.typicode.com/'
-        user_id = int(argv[1])
-        user_res = requests.get('{}/users/{}'.format(API_URL, user_id)).json()
+        id = int(argv[1])
+        user_res = requests.get('{}/users/{}'.format(API_URL, id)).json()
         todos_res = requests.get('{}/todos'.format(API_URL)).json()
         user_name = user_res.get('name')
         todos = list(filter(lambda x: x.get('userId') == id, todos_res))
