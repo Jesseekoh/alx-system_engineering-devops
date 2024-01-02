@@ -17,7 +17,7 @@ if __name__ == '__main__':
             todos_res = requests.get('{}/todos'.format(API_URL)).json()
             user_name = user_res.get('username')
             todos = list(filter(lambda x: x.get('userId') == id, todos_res))
-            with open('{}.csv'.format(id), 'w') as file:
+            with open('{}.json'.format(id), 'w') as file:
                 for todo in todos:
                     file.write('"{}","{}","{}","{}"\n'.format(
                         id,
