@@ -1,5 +1,8 @@
 #!/usr/bin/python3
+"""
+0-0-gather_data_from_an_API module
 
+"""
 import re
 import requests
 from sys import argv
