@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""0-0-subs.py module"""
+"""0-subs.py module"""
 import requests
 
 
