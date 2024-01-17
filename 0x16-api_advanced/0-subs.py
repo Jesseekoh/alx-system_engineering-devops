@@ -11,9 +11,9 @@ def number_of_subscribers(subreddit):
         'Accept': 'application/json'
     }
     res = requests.get(
-      '{}/r/{}/about/.json'.format(BASE_URL, subreddit),
-      allow_redirects=False,
-      headers=api_headers
+        '{}/r/{}/about/.json'.format(BASE_URL, subreddit),
+        allow_redirects=False,
+        headers=api_headers
     )
 
     if res.status_code == 200:
