@@ -1,0 +1,28 @@
+global
+    log 127.0.0.1 local0 notice
+    maxconn 2000
+    user haproxy
+    group haproxy
+defaults
+    log     global
+    mode    http
+    option  httplog
+    option  dontlognull
+    retries 3
+    option redispatch
+    timeout connect  5000
+    timeout client  10000
+    timeout server  10000
+frontend www-http
+   bind *:80
+   http-request set-header X-Forwarded-Proto http
+   default_backend www-backend
+frontend www-https
+   bind *:443 ssl crt /etc/haproxy/cert/key.pem
+   http-request set-header X-Forwarded-Proto https
+   default_backend www-backend
+backend www-backend
+   balance roundrobin
+   redirect scheme https if !{ ssl_fc }
+   server 291495-web-01 52.91.178.103:80 check
+   server 291495-web-02 100.26.170.17:80 check                                      
